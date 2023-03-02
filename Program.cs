@@ -24,6 +24,8 @@ namespace Princess
                 Console.Write("Enter an operator (+, -, *, /): ");
                 char op = char.Parse(Console.ReadLine());
 
+                //changed something
+
                 // Perform the requested operation
                 int result = 0;
                 switch (op)
