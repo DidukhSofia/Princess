@@ -29,7 +29,7 @@ namespace Princess
                 switch (op)
                 {
                     case '+':
-                        //result = call_your_funtion;
+                        int result = num1 + num2;
                         break;
                     case '-':
                         //result = call_your_funtion;
