@@ -32,6 +32,7 @@ namespace Princess
                         //result = call_your_funtion;
                         break;
                     case '-':
+                        result = num1 - num2;
                         //result = call_your_funtion;
                         break;
                     case '*':
