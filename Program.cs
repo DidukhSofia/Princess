@@ -32,7 +32,7 @@ namespace Princess
                         //result = call_your_funtion;
                         break;
                     case '-':
-                        result = num1 - num2;
+                        result = Minus(num1,num2);
                         //result = call_your_funtion;
                         break;
                     case '*':
@@ -45,10 +45,15 @@ namespace Princess
                         Console.WriteLine("Invalid operator entered.");
                         return;
                 }
-
+                
                 // Display the result to the user
                 Console.WriteLine("Result: " + result);
             }
+            private static int Minus(int a,int b)
+            {
+                return a - b;
+            }
+            
         }
     }
 }
